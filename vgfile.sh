@@ -31,6 +31,5 @@ docker run -p 7777:8090 -d dima
 echo "================ssh============================"
 cd /tmp
 pwd
-ssh -i 'Ubuntu.pem' -v -f -N -R 9999:localhost:7777 ubuntu@13.56.207.23 >> /dev/null
-
+ssh -i 'Ubuntu.pem' -v -f -N -R 9999:localhost:7777 ubuntu@13.56.207.23
 
